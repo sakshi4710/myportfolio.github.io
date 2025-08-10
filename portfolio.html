@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakshi Wadekar</title>
+    <link rel="stylesheet" href="port.css">
+    
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="table.css">
+     <link rel="stylesheet"  media="screen and(max-width:530px)" href="phone.css">
+     <style>
+        /* ABOUT SECTION (No Image) */
+#about {
+    background: linear-gradient(to bottom right, #ffffff, #e6f0ff);
+    padding: 80px 40px;
+    color: #333;
+}
+
+.headingsabout {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #1a1a1a;
+    animation: fadeInText 2s ease;
+    position: relative;
+}
+.headingsabout::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background: #3498db;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+.about-content-only {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    animation: slideUp 1.5s ease;
+}
+
+
+.about-content-only p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+.btn-about {
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+.btn-about:hover {
+    background-color: #2c80b4;
+    box-shadow: 0 0 12px #3498db;
+}
+
+/* Animations */
+@keyframes fadeInText {
+    0% {opacity: 0; transform: translateX(-50px);}
+    100% {opacity: 1; transform: translateX(0);}
+}
+
+@keyframes slideUp {
+    0% {transform: translateY(100px); opacity: 0;}
+    100% {transform: translateY(0); opacity: 1;}
+}
+
+/*                       for education               */
+#education {
+    background: linear-gradient(to right, #f9f9f9, #eef2f3);
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .section-heading {
+    font-size: 2.5rem;
+    color: #222;
+    margin-bottom: 40px;
+    font-weight: bold;
+    position: relative;
+  }
+  
+  .edu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .edu-card {
+    background: #fff;
+    padding: 25px;
+    max-width: 350px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .edu-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .edu-card h2 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .edu-card h4 {
+    font-size: 1.1rem;
+    color: #777;
+    margin: 5px 0;
+  }
+  
+  .edu-year {
+    color: #e67e22;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .edu-card ul {
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  .edu-card ul li {
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+          /* -------------internship----------- */
+          #certifications {
+            background: linear-gradient(to right, #fdfbfb, #ebedee);
+            padding: 60px 20px;
+            text-align: center;
+          }
+          
+          .cert-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            animation: fadeIn 2s ease;
+          }
+          
+          .cert-card {
+            background: #fff;
+            padding: 25px;
+            max-width: 350px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            text-align: left;
+            transition: transform 0.3s ease;
+          }
+          
+          .cert-card:hover {
+            transform: translateY(-10px);
+          }
+          
+          .cert-card h2 {
+            font-size: 1.5rem;
+            color: #2c3e50;
+          }
+          
+          .cert-card h4 {
+            font-size: 1.1rem;
+            color: #7f8c8d;
+            margin-bottom: 10px;
+          }
+          
+          .cert-duration {
+            font-size: 1rem;
+            color: #2980b9;
+            font-weight: 600;
+            margin-bottom: 10px;
+          }
+          
+          .cert-card ul {
+            margin-top: 10px;
+            padding-left: 20px;
+          }
+          
+          .cert-card li {
+            margin-bottom: 8px;
+            color: #444;
+          }
+          
+          .cert-btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s ease;
+          }
+          
+          .cert-btn:hover {
+            background: #2980b9;
+          }
+          /*-----------------certificate and achievement--------------------*/
+          /* Certificates section styling */
+.certificates-section {
+  padding: 80px 20px;
+  background-color: #4f46e5; /* Dark blue background */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Grid layout for certificates */
+.certificates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+/* Individual certificate card styling */
+.certificate-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.certificate-card:hover {
+  transform: translateY(-10px); /* Lift effect */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.certificate-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.certificate-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.certificate-description {
+  font-size: 14px;
+  color: #777;
+}
+
+/* AOS - Add animations when scroll comes into view */
+[data-aos="zoom-in-up"] {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.3s ease-out;
+}
+
+[data-aos="zoom-in-up"].aos-animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+     </style>
+</head>
+<body>
+   <nav class="navbar">
+     <ul>
+        <li>   <a href="#home"> HOME </a></li>
+        <li><a href="#about"> ABOUT</a> </li>
+        <li><a href="#education"> EDUCATION </a>  </li>
+        <li><a href="#certifications"> CERTIFICATIONS </a>  </li>
+     </ul>
+   </nav>
+
+   <section id="home">
+    <div class="main">
+        <h1 class="heading">I AM <br>SAKSHI WADEKAR</h1><br><br>
+        <button class="btn">
+           Hire me
+        </button>
+    </div>
+   </section>
+
+   <section id="about">
+    <h1 class="headingsabout">ABOUT ME</h1>
+    <div class="about-content-only">
+      <h2>Sakshi Wadekar</h2>
+      <p>
+        I’m currently pursuing a BSc in IT. As an aspiring IT student, I’m passionate about bridging the gap between theory and real-world application. 
+        I’m eager to gain industry experience through internships, where I can contribute while expanding my technical and problem-solving skills. 
+        I believe in continuous learning and innovation, and I aim to thrive in dynamic work environments that challenge and inspire me.
+      </p>
+      <a href="#contact" class="btn-about">Let’s Connect</a>
+    </div>
+  </section>
+  
+  <section id="education">
+    <h1 class="section-heading">Education</h1>
+    <div class="edu-container">
+      
+      <!-- BSc IT -->
+      <div class="edu-card">
+        <h2>B.Sc. in Information Technology</h2>
+        <h4>Chikitsak Samuha's S.S. & L.S. Patkar College of Arts & Science, and V. P. Varde College of Commerce & Economics.</h4>
+        <p class="edu-year">2022 – Present (Expected Graduation: 2025)</p>
+        <ul>
+          <li>Currently in 3rd year</li>
+          <li>CGPA: Average till sem 5 = 9.3 </li>
+        </ul>
+      </div>
+  
+      <!-- 12th (HSC) -->
+      <div class="edu-card">
+        <h2>Higher Secondary Certificate (HSC)</h2>
+        <h4>Chikitsak Samuha's S.S. & L.S. Patkar College of Arts & Science, and V. P. Varde College of Commerce & Economics.</h4>
+        <p class="edu-year">2020 – 2022</p><br>
+        <ul>
+            <li>Percentage : 77.33%</li>
+          <li>Commerce Stream </li>
+        </ul>
+      </div>
+  
+      <!-- 10th (SSC) -->
+      <div class="edu-card">
+        <h2>Secondary School Certificate (SSC)</h2><br>
+        <h4>Maharani Saibai Vidyamandir</h4><br><br>
+        <p class="edu-year">2019 – 2020</p><br><br>
+        <ul>
+            <li>Percentage : 90.20%</li>
+        </ul>
+      </div>
+  
+    </div>
+  </section>
+  
+  <section id="certifications">
+    <h1 class="section-heading">Certifications & Internships</h1>
+    <div class="cert-container">
+  
+      <!-- Internship at CodeSoft -->
+      <div class="cert-card">
+        <h2>Virtual Internship</h2>
+        <h4>CodeSoft</h4>
+        <p class="cert-duration">Jan 2024 – Mar 2024</p>
+        <ul>
+          <li>Completed a virtual internship in Web Development</li>
+          <li>Worked on responsive UI design and landing page creation</li>
+          <li>Gained experience with HTML, CSS, JavaScript</li>
+        </ul>
+        <a href="c:\Users\sakshi\Downloads\codsoft internship_page-0001.jpg" class="cert-btn" target="_blank">View Certificate</a>
+      </div>
+  
+    </div>
+  </section>  
+
+   <!-- Certificates Section -->
+   <section class="certificates-section">
+    <div class="container">
+      <h2 class="title">🎓 Certificates & Achievements</h2>
+
+      <div class="certificates-grid">
+
+        <!-- Certificate 1 -->
+        <div class="certificate-card" data-aos="zoom-in-up">
+          <img src="c:\Users\sakshi\OneDrive\Desktop\project\image\Certificate of TCS iON Career Edge - Young Professional_page-0001.jpg" alt="Certificate 1" class="certificate-image">
+          <h3 class="certificate-title">TCS iON Career Edge - Young Professional</h3>
+        </div>
+
+        <!-- Certificate 1 -->
+        <div class="certificate-card" data-aos="zoom-in-up">
+          <img src="c:\Users\sakshi\OneDrive\Desktop\project\image\Ajile project managment-hp life_page-0001.jpg" alt="Certificate 1" class="certificate-image">
+          <h3 class="certificate-title">Ajile project managment</h3>
+        </div>
+
+        <!-- Certificate 1 -->
+        <div class="certificate-card" data-aos="zoom-in-up">
+          <img src="c:\Users\sakshi\OneDrive\Desktop\project\image\Certificate of Achievement in Communication Skills_TCS ION_page-0001 (1).jpg" alt="Certificate 1" class="certificate-image">
+          <h3 class="certificate-title">Communication Skills</h3>
+        </div>
+
+        <!-- Certificate 1 -->
+        <div class="certificate-card" data-aos="zoom-in-up">
+          <img src="c:\Users\sakshi\OneDrive\Desktop\project\image\Certificate of Completion Data Science & Analytics_page-0001.jpg" alt="Certificate 1" class="certificate-image">
+          <h3 class="certificate-title">Data Science & Analytics</h3>
+        </div>
+
+        <!-- Certificate 1 -->
+        <div class="certificate-card" data-aos="zoom-in-up">
+          <img src="c:\Users\sakshi\OneDrive\Desktop\project\image\CertificateOfCompletion_What Is Generative AI_page-0001.jpg" alt="Certificate 1" class="certificate-image">
+          <h3 class="certificate-title">Generative AI</h3>
+        </div>
+
+ <!-- Certificate 1 -->
+ <div class="certificate-card" data-aos="zoom-in-up">
+  <img src="c:\Users\sakshi\OneDrive\Desktop\project\image\SAKSHI-WADEKAR-Participant-Certificate stp bombay_page-0001.jpg" alt="Certificate 1" class="certificate-image">
+  <h3 class="certificate-title">Arduino training</h3>
+</div>
+
+        <!-- Certificate 1 -->
+        <div class="certificate-card" data-aos="zoom-in-up">
+          <img src="c:\Users\sakshi\OneDrive\Desktop\project\image\java bootcamp_page-0001.jpg" alt="Certificate 1" class="certificate-image">
+          <h3 class="certificate-title">java bootcamp</h3>
+        </div>
+        
+
+        <!-- Certificate 1 -->
+        <div class="certificate-card" data-aos="zoom-in-up">
+          <img src="c:\Users\sakshi\OneDrive\Desktop\project\image\Sakshi Chandrakant Wadekar Student Faculty Exchange Certificate_page-0001.jpg" alt="Certificate 1" class="certificate-image">
+          <h3 class="certificate-title">Faculty Exchange Certificate</h3>
+        </div>
+
+        <!-- Add more certificates as needed -->
+
+      </div>
+    </div>
+  </section>
+
+
+   <section id="contact">
+    <h1 class="headings"> CONTACT</h1>
+    <form action=""class="form">
+        <input type="text"name="name"class="input"placeholder="Enter your name">
+        <input type="email"name="email"class="input"placeholder="Enter your email">
+        <textarea name="msg"id="msg"cols="30"rows="10"placeholder="Enter your message"></textarea>
+        <input type="submit"value="SEND"id="send">
+    </form>
+
+   </section>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    // Initialize AOS
+    AOS.init({
+      duration: 1200,
+      once: true,
+      easing: 'ease-in-out',
+    });
+  </script>
+  
+</body>
+</html>
